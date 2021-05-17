@@ -1,0 +1,5 @@
+body{margin:0;padding:0;background:#1c1c1c}.board.svelte-1t2cpc7{width:100%;height:100vh;display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr 1fr 1fr;gap:15px 15px;grid-template-areas:". . . . ."
+      ". . . . ."
+      ". . . . ."
+      ". . . . ."
+      ". . . . .";padding:15px;box-sizing:border-box}.word.svelte-9xl525.svelte-9xl525{width:100%;height:100%;display:flex;align-items:center;justify-content:center;border-radius:15px;box-sizing:border-box;background:#feffc0;box-shadow:0 0 0px 2px white}.word.svelte-9xl525>span.svelte-9xl525{background:white;width:100%;text-align:center;padding:8px;margin:8px;border-radius:5px;font-weight:500}.blue.svelte-9xl525.svelte-9xl525{border:6px solid #42a1e5}.red.svelte-9xl525.svelte-9xl525{border:6px solid #eb6969}.white.svelte-9xl525.svelte-9xl525{border:6px solid #b3b3b3}.bomb.svelte-9xl525.svelte-9xl525{border:6px solid #000000}
