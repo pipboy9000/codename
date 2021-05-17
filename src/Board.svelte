@@ -89,8 +89,11 @@
 <style>
   .board {
     width: 100%;
+    max-width: 125vh;
     height: 100vh;
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 15px 15px;

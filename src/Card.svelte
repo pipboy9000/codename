@@ -76,6 +76,8 @@
     box-sizing: border-box;
     background: #feffc0;
     box-shadow: 0 0 0px 2px white;
+    user-select: none;
+    transition: background 0.3s ease-out;
   }
 
   .word > span {
