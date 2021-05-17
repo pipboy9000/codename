@@ -5,13 +5,19 @@
   import IoIosSettings from "svelte-icons/io/IoIosSettings.svelte";
   import FaUserTie from "svelte-icons/fa/FaUserTie.svelte";
   import FaUserSecret from "svelte-icons/fa/FaUserSecret.svelte";
+  import { onMount } from "svelte";
 
   export let params;
 
   export let showSettings = false;
+  onMount(() => {
+    if (!params?.hash) {
+      push("/" + newCode(10));
+    }
+  });
 </script>
 
-{#if params.hash.length >= 5}
+{#if params?.hash?.length >= 5}
   <Board hash={params.hash} />
   <div
     class="settingsBtn"
