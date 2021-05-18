@@ -9,7 +9,7 @@
 
   export let params;
 
-  export let showSettings = false;
+  export let showSettings = true;
   onMount(() => {
     if (!params?.hash) {
       push("/" + newCode(10));
@@ -56,7 +56,7 @@
       <button
         on:click={() => {
           push("/" + newCode(10));
-        }}><p>משחק חדש</p></button
+        }}>משחק חדש</button
       >
     </div>
   {/if}
