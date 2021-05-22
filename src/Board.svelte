@@ -50,7 +50,7 @@
         "blue",
         "blue",
         "blue",
-        "white",
+        "blue",
         "white",
         "white",
         "white",
